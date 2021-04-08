@@ -26,8 +26,4 @@ class ResultExtensionTest: XCTestCase {
             XCTAssertNotNil(error)
         }
     }
-    
-    func test_fail() {
-        XCTAssert(false)
-    }
 }
