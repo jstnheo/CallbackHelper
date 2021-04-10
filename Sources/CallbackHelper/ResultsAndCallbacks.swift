@@ -30,6 +30,7 @@ public class Callback<R> {
             return
         }
         queue.async {
+            // Test comment
             self.block(result)
         }
     }

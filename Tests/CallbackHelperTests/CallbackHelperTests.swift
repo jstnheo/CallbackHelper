@@ -47,4 +47,8 @@ final class CallbackHelperTests: XCTestCase {
         
         testCallback?.withResult(.success(true))
     }
+    
+    func test_another_success() {
+        XCTAssert(true)
+    }
 }
